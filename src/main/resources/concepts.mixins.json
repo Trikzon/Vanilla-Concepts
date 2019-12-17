@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.github.trikzon.concepts.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "LivingEntityMixin"
+  ],
+  "client": [
+    "client.LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
