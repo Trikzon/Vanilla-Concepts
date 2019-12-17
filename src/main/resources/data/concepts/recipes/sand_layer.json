@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sand_layer",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sand"
+    }
+  },
+  "result": {
+    "item": "concepts:sand_layer",
+    "count": 3
+  }
+}
