@@ -25,7 +25,7 @@ public abstract class LivingEntityMixin extends Entity {
     public abstract Optional<BlockPos> getSleepingPosition();
 
     @Inject(method = "isSleepingInBed", at = @At("RETURN"), cancellable = true)
-    private void onIsSleepingInBed(CallbackInfoReturnable<Boolean> cir) {
+    private void trikzon_onIsSleepingInBed(CallbackInfoReturnable<Boolean> cir) {
         boolean result = this.getSleepingPosition().map((blockPos) ->
                 this.world.getBlockState(blockPos).getBlock() instanceof SleepingBagBlock).orElse(false);
 

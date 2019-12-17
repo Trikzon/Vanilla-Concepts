@@ -3,7 +3,8 @@
   "package": "io.github.trikzon.concepts.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "LivingEntityMixin"
+    "LivingEntityMixin",
+    "ShovelItemMixin"
   ],
   "client": [
     "client.LivingEntityMixin"

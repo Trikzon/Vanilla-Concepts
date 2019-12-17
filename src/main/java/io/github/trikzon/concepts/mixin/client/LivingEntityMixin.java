@@ -21,7 +21,7 @@ public abstract class LivingEntityMixin extends Entity {
     }
 
     @Inject(method = "getSleepingDirection", at = @At("RETURN"), cancellable = true, locals = LocalCapture.CAPTURE_FAILEXCEPTION)
-    private void onGetSleepingDirection(CallbackInfoReturnable<Direction> cir, BlockPos pos) {
+    private void trikzon_onGetSleepingDirection(CallbackInfoReturnable<Direction> cir, BlockPos pos) {
         if (cir.getReturnValue() != null && pos == null) return;
 
         Direction direction = SleepingBagBlock.getDirection(world, pos);

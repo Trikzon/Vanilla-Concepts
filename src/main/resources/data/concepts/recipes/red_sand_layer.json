@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "group": "sand_layer",
   "pattern": [
-    "##"
+    "###"
   ],
   "key": {
     "#": {
@@ -11,6 +11,6 @@
   },
   "result": {
     "item": "concepts:red_sand_layer",
-    "count": 3
+    "count": 24
   }
 }
