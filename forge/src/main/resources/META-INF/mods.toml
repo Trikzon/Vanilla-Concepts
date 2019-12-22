@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+#issueTrackerURL=""
+
+[[mods]]
+modId="concepts"
+version="${file.jarVersion}"
+displayName="Vanilla Concepts"
+#updateJSONURL=""
+#displayURL=""
+#logoFile=""
+#credits=""
+authors="Trikzon"
+description='''
+'''
+
+[[dependencies.concepts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.concepts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.concepts]]
+    modId="phantomlib"
+    mandatory=true
+    versionRange="[1.0.0]"
+    ordering="AFTER"
+    side="BOTH"

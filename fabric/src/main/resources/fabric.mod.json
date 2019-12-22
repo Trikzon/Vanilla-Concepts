@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "concepts",
+  "version": "${version}",
+
+  "name": "Vanilla Concepts",
+  "description": "",
+  "authors": [
+    "Trikzon"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/concepts/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.trikzon.concepts.fabric.Concepts"
+    ]
+  },
+  "mixins": [
+    "concepts.common.mixins.json",
+    "concepts.client.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x",
+    "phantomlib": "1.0.0"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "concepts:item/template_sleeping_bag",
+  "textures": {
+    "texture": "entity/bed/white"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sleeping_bag",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blue_carpet"
+    }
+  },
+  "result": {
+    "item": "concepts:blue_sleeping_bag",
+    "count": 1
+  }
+}

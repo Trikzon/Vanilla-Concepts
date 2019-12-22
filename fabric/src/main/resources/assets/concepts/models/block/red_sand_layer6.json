@@ -1,0 +1,7 @@
+{
+  "parent": "concepts:block/template_layer6",
+  "textures": {
+    "particle": "block/red_sand",
+    "texture": "block/red_sand"
+  }
+}
