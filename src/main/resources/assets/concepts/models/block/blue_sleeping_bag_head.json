@@ -1,7 +1,0 @@
-{
-  "parent": "concepts:block/template_sleeping_bag_head",
-  "textures": {
-    "texture": "entity/bed/blue",
-    "particle": "block/blue_wool"
-  }
-}

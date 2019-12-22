@@ -1,7 +1,0 @@
-{
-  "parent": "concepts:block/template_layer1",
-  "textures": {
-    "particle": "block/sand",
-    "texture": "block/sand"
-  }
-}
